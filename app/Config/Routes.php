@@ -18,6 +18,7 @@ $routes->get('catalogo', 'Home::f_catalogo');
  * Rutas del Registro de Usuarios
  */
 $routes->get('registro', 'Usuario_controller::create');
+$routes->post('/enviar-form', 'Usuario_controller::formValidation');
 
 /**
  * Rutas del Ingreso de Usuarios
